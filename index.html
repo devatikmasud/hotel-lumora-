@@ -1,0 +1,1963 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="author" content="Atik Masud" />
+        <meta name="description" content="Lumora - Hotel Booking" />
+        <title>Lumora - Hotel Booking</title>
+        <link rel="shortcut icon" href="assets/img/favicon.svg" />
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/all.min.css" />
+        <link rel="stylesheet" href="assets/css/animate.css" />
+        <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+        <link rel="stylesheet" href="assets/css/mousecursor.css" />
+        <link rel="stylesheet" href="assets/css/meanmenu.css" />
+        <link rel="stylesheet" href="assets/css/odometer.css" />
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="assets/css/nice-select.css" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/i18n.css" />
+    </head>
+    <body>
+        <div id="preloader">
+            <div class="preloader-content">
+                <img src="assets/img/logo/black-logo.svg" alt="Hotel Logo" class="preloader-logo" />
+                <div class="spinner"></div>
+                <p>Booking your experience...</p>
+            </div>
+        </div>
+        <button id="back-top" class="back-to-top show">
+            <i class="fa-regular fa-arrow-up"></i>
+        </button>
+        <div class="mouseCursor cursor-outer"></div>
+        <div class="mouseCursor cursor-inner"></div>
+        <div class="fix-area style-offcanvas-2">
+            <div class="header-offcanvas-border">
+                <div class="offcanvas__info">
+                    <a href="index.html" class="offcanvas__logo">
+                        <img src="assets/img/logo/black-logo.svg" alt="img" />
+                    </a>
+                    <div class="offcanvas__close">
+                        <button>
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div class="offcanvas__wrapper">
+                        <div class="offcanvas__content">
+                            <div class="mobile-menus style-2 fix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas__overlay"></div>
+        <header id="header-sticky" class="header-1 header-2">
+            <div class="container-fluid">
+                <div class="mega-menu-wrapper">
+                    <div class="header-main">
+                        <div class="header-left">
+                            <a href="index.html" class="header-logo d-xxl-none my-auto">
+                                <img src="assets/img/logo/white-logo.svg" alt="logo-img" />
+                            </a>
+                            <div class="header__hamburger my-auto">
+                                <div class="sidebar__toggle">
+                                    <h6>menu</h6>
+                                    <i class="fas fa-bars"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="logo">
+                            <a href="index.html" class="header-logo">
+                                <img src="assets/img/logo/white-logo.svg" alt="logo-img" />
+                            </a>
+                            <a href="index.html" class="header-logo-2">
+                                <img src="assets/img/logo/black-logo.svg" alt="logo-img" />
+                            </a>
+                        </div>
+                        <div class="mean__menu-wrapper d-none">
+                            <div class="main-menu">
+                                <nav id="mobile-menus">
+                                    <ul>
+                                        <li class="active"><a href="index.html">Home</a></li>
+                                        <li>
+                                            <a href="about.html">About Us</a>
+                                        </li>
+                                        <li class="has-dropdown">
+                                            <a href="news-details.html"> Pages </a>
+                                            <ul class="submenu">
+                                                <li class="has-dropdown">
+                                                    <a href="room-details.html">
+                                                        Room
+                                                        <i class="fas fa-angle-right"></i>
+                                                    </a>
+                                                    <ul class="submenu">
+                                                        <li><a href="room.html"> Our Room</a></li>
+                                                        <li><a href="room-details.html">Room Details</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="facilitie.html">Hotel Facilities</a></li>
+                                                <li class="has-dropdown">
+                                                    <a href="team-details.html">
+                                                        Team
+                                                        <i class="fas fa-angle-right"></i>
+                                                    </a>
+                                                    <ul class="submenu">
+                                                        <li><a href="team.html">Our Team</a></li>
+                                                        <li><a href="team-details.html">Team Details</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="testimonial.html">Our Testimonial</a></li>
+                                                <li><a href="404.html">404 Page</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="service-details.html"> Service </a>
+                                            <ul class="submenu">
+                                                <li><a href="service.html">Our Service</a></li>
+                                                <li>
+                                                    <a href="service-details.html">Service Details</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="news-details.html"> Blog </a>
+                                            <ul class="submenu">
+                                                <li><a href="news-grid.html">Blog Grid</a></li>
+                                                <li><a href="news.html">Blog Standard</a></li>
+                                                <li><a href="news-details.html">Blog Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="header-right d-flex justify-content-end align-items-center">
+                            <div class="call-item style-2">
+                                <div class="icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <h6>
+                                    <a href="tel:+001652069800">+001 6520 698 00</a>
+                                </h6>
+                            </div>
+
+                            <div class="header__hamburger d-xxl-none my-auto">
+                                <div class="sidebar__toggle">
+                                    <i class="fas fa-bars"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="hero-section hero-2 fix">
+            <div class="hero-video">
+                <video autoplay loop muted playsinline poster="assets/img/home-2/tower.jpg">
+                    <source src="https://ex-coders.com/vdo/Bg.mp4" type="video/mp4" />
+                </video>
+            </div>
+            <ul class="hero-list">
+                <li>Check-in: 3:00 pm</li>
+                <li class="style-2">Check-out: 12:00 pm</li>
+                <li class="style-2">Minimum Age to Check In 18</li>
+                <li class="style-2">Pets Not Allowed</li>
+                <li class="style-2">Complimentary parking</li>
+            </ul>
+            <div class="container-fluid">
+                <div class="from-box bg-cover" style="background-image: url(assets/img/home-2/bg-shape.png)">
+                    <h2 class="sec-title">Book your Luxury Rooms</h2>
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="form-clt">
+                                    <span>Check In</span>
+                                    <input type="date" id="date1" name="date1" />
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="form-clt">
+                                    <span>Check Out</span>
+                                    <input type="date" id="date" name="date" />
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="form-clt">
+                                    <span>Adults</span>
+                                    <div class="form">
+                                        <select class="single-select w-100">
+                                            <option>01</option>
+                                            <option>02</option>
+                                            <option>03</option>
+                                            <option>04</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="form-clt">
+                                    <span>Children</span>
+                                    <div class="form">
+                                        <select class="single-select w-100">
+                                            <option>01</option>
+                                            <option>02</option>
+                                            <option>03</option>
+                                            <option>04</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-12">
+                                <div class="form-clt">
+                                    <button class="theme-btn w-100" type="submit">SEARCH NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="about-section-2 section-padding fix">
+            <div class="container">
+                <div class="about-wrapper-2">
+                    <div class="shape">
+                        <img src="assets/img/home-2/about/shape.png" alt="img" />
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-xl-4 col-lg-4">
+                            <div class="about-left-item">
+                                <div class="section-title mb-0">
+                                    <span class="sub-title sub-title-2 wow fadeInUp">about Lumora</span>
+                                </div>
+                                <div class="about-image">
+                                    <img
+                                        src="assets/img/home-2/about/01.jpg"
+                                        alt="img"
+                                        class="wow img-custom-anim-left"
+                                    />
+                                </div>
+                                <div class="about-list wow fadeInUp" data-wow-delay=".3s">
+                                    <h4>Our facilities</h4>
+                                    <ul class="list">
+                                        <li>
+                                            <i class="fa-solid fa-circle-chevron-right"></i>
+                                            Easy and secure online booking
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-circle-chevron-right"></i>
+                                            Exclusive discounts and offers
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-circle-chevron-right"></i>
+                                            24/7 customer support
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-circle-chevron-right"></i>
+                                            Flexible cancellation policies
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-8">
+                            <div class="about-right-content">
+                                <div class="section-title mb-0">
+                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                                        Where Timeless Japanese Culture Meets Modern And Elegance Style
+                                    </h2>
+                                </div>
+                                <p class="text wow fadeInUp" data-wow-delay=".3s">
+                                    Experience the serene balance of Japan, where timeless traditions meet the pulse of
+                                    modern life.From ancient temples to futuristic skylines, every detail tells a story
+                                    of harmony. Witness craftsman passed through generations, reimagined for today’s
+                                    world. Here, the past and present coexist beautifully — refined, elegant, and
+                                    inspiring.
+                                </p>
+                                <div class="about-item">
+                                    <div class="left-image">
+                                        <img
+                                            src="assets/img/home-2/about/02.jpg"
+                                            alt="img"
+                                            class="wow img-custom-anim-top"
+                                        />
+                                    </div>
+                                    <div class="right-item">
+                                        <div class="about-button wow fadeInUp" data-wow-delay=".5s">
+                                            <a href="room-details.html" class="theme-btn style-color">view rooms</a>
+                                            <a href="about.html" class="theme-btn">more about us</a>
+                                        </div>
+                                        <div class="right-image">
+                                            <img
+                                                src="assets/img/home-2/about/03.jpg"
+                                                alt="img"
+                                                class="wow img-custom-anim-right"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="room-section-2 section-padding fix">
+            <div class="bg-image tm-gsap-img-parallax">
+                <img src="assets/img/home-1/room/bg-2.jpg" alt="img" />
+            </div>
+            <div class="container">
+                <div class="section-title-area">
+                    <div class="left-content">
+                        <div class="section-title mb-0">
+                            <span class="sub-title text-white sub-title-2 wow fadeInUp">Choose Your Perfect Stay</span>
+                        </div>
+                        <ul class="nav" role="tablist">
+                            <li class="nav-item wow fadeInUp" data-wow-delay=".2s">
+                                <a
+                                    href="#feature"
+                                    data-bs-toggle="tab"
+                                    class="nav-link"
+                                    aria-selected="false"
+                                    role="tab"
+                                    tabindex="-1"
+                                >
+                                    Traditional
+                                </a>
+                            </li>
+                            <li class="nav-item wow fadeInUp" data-wow-delay=".4s">
+                                <a
+                                    href="#local"
+                                    data-bs-toggle="tab"
+                                    class="nav-link active"
+                                    aria-selected="true"
+                                    role="tab"
+                                >
+                                    Rooms
+                                </a>
+                            </li>
+                            <li class="nav-item wow fadeInUp" data-wow-delay=".6s">
+                                <a
+                                    href="#basic"
+                                    data-bs-toggle="tab"
+                                    class="nav-link"
+                                    aria-selected="false"
+                                    role="tab"
+                                    tabindex="-1"
+                                >
+                                    Swites
+                                </a>
+                            </li>
+                            <li class="nav-item wow fadeInUp" data-wow-delay=".6s">
+                                <a
+                                    href="#room"
+                                    data-bs-toggle="tab"
+                                    class="nav-link"
+                                    aria-selected="false"
+                                    role="tab"
+                                    tabindex="-1"
+                                >
+                                    Accessible Rooms
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="section-title mb-0">
+                        <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">
+                            Choose Our Elegant <br />
+                            Accommodation For Smart <br />
+                            Life Style
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content">
+                <div id="feature" class="tab-pane fade" role="tabpanel">
+                    <div class="swiper room-slider-2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="room-card-items-2">
+                                    <span class="tag">
+                                        <a href="assets/img/home-1/room/small-1.jpg" class="img-popup2">
+                                            <i class="fa-regular fa-images"></i>
+                                            All Photos
+                                        </a>
+                                    </span>
+                                    <div class="room-image">
+                                        <img src="assets/img/home-1/room/small-1.jpg" alt="img" />
+                                    </div>
+                                    <div class="room-content">
+                                        <h4>
+                                            <a href="room-details.html">Delux Family Room</a>
+                                        </h4>
+                                        <ul class="list">
+                                            <li>
+                                                <i class="fa-solid fa-bed-front"></i>
+                                                1500 SQ.FT/Rooms
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-user"></i>
+                                                02 Guests
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="room-card-items-2">
+                                    <span class="tag">
+                                        <a href="assets/img/home-1/room/small-2.jpg" class="img-popup2">
+                                            <i class="fa-regular fa-images"></i>
+                                            All Photos
+                                        </a>
+                                    </span>
+                                    <div class="room-image">
+                                        <img src="assets/img/home-1/room/small-2.jpg" alt="img" />
+                                    </div>
+                                    <div class="room-content">
+                                        <h4>
+                                            <a href="room-details.html">Delux Family Room</a>
+                                        </h4>
+                                        <ul class="list">
+                                            <li>
+                                                <i class="fa-solid fa-bed-front"></i>
+                                                1500 SQ.FT/Rooms
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-user"></i>
+                                                02 Guests
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="room-card-items-2">
+                                    <span class="tag">
+                                        <a href="assets/img/home-1/room/small-3.jpg" class="img-popup2">
+                                            <i class="fa-regular fa-images"></i>
+                                            All Photos
+                                        </a>
+                                    </span>
+                                    <div class="room-image">
+                                        <img src="assets/img/home-1/room/small-5.jpg" alt="img" />
+                                    </div>
+                                    <div class="room-content">
+                                        <h4>
+                                            <a href="room-details.html">Delux Family Room</a>
+                                        </h4>
+                                        <ul class="list">
+                                            <li>
+                                                <i class="fa-solid fa-bed-front"></i>
+                                                1500 SQ.FT/Rooms
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-user"></i>
+                                                02 Guests
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="room-card-items-2">
+                                    <span class="tag">
+                                        <a href="assets/img/home-1/room/small-4.jpg" class="img-popup2">
+                                            <i class="fa-regular fa-images"></i>
+                                            All Photos
+                                        </a>
+                                    </span>
+                                    <div class="room-image">
+                                        <img src="assets/img/home-1/room/small-3.jpg" alt="img" />
+                                    </div>
+                                    <div class="room-content">
+                                        <h4>
+                                            <a href="room-details.html">Delux Family Room</a>
+                                        </h4>
+                                        <ul class="list">
+                                            <li>
+                                                <i class="fa-solid fa-bed-front"></i>
+                                                1500 SQ.FT/Rooms
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-user"></i>
+                                                02 Guests
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="room-card-items-2">
+                                    <span class="tag">
+                                        <a href="assets/img/home-1/room/small-5.jpg" class="img-popup2">
+                                            <i class="fa-regular fa-images"></i>
+                                            All Photos
+                                        </a>
+                                    </span>
+                                    <div class="room-image">
+                                        <img src="assets/img/home-1/room/small-4.jpg" alt="img" />
+                                    </div>
+                                    <div class="room-content">
+                                        <h4>
+                                            <a href="room-details.html">Delux Family Room</a>
+                                        </h4>
+                                        <ul class="list">
+                                            <li>
+                                                <i class="fa-solid fa-bed-front"></i>
+                                                1500 SQ.FT/Rooms
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-user"></i>
+                                                02 Guests
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="local" class="tab-pane fade active show" role="tabpanel">
+                    <div class="swiper room-slider-2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="room-card-items-2">
+                                    <span class="tag">
+                                        <a href="assets/img/home-1/room/small-1.jpg" class="img-popup2">
+                                            <i class="fa-regular fa-images"></i>
+                                            All Photos
+                                        </a>
+                                    </span>
+                                    <div class="room-image">
+                                        <img src="assets/img/home-1/room/small-1.jpg" alt="img" />
+                                    </div>
+                                    <div class="room-content">
+                                        <h4>
+                                            <a href="room-details.html">Delux Family Room</a>
+                                        </h4>
+                                        <ul class="list">
+                                            <li>
+                                                <i class="fa-solid fa-bed-front"></i>
+                                                1500 SQ.FT/Rooms
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-user"></i>
+                                                02 Guests
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="room-card-items-2">
+                                    <span class="tag">
+                                        <a href="assets/img/home-1/room/small-2.jpg" class="img-popup2">
+                                            <i class="fa-regular fa-images"></i>
+                                            All Photos
+                                        </a>
+                                    </span>
+                                    <div class="room-image">
+                                        <img src="assets/img/home-1/room/small-2.jpg" alt="img" />
+                                    </div>
+                                    <div class="room-content">
+                                        <h4>
+                                            <a href="room-details.html">Delux Family Room</a>
+                                        </h4>
+                                        <ul class="list">
+                                            <li>
+                                                <i class="fa-solid fa-bed-front"></i>
+                                                1500 SQ.FT/Rooms
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-user"></i>
+                                                02 Guests
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="room-card-items-2">
+                                    <span class="tag">
+                                        <a href="assets/img/home-1/room/small-3.jpg" class="img-popup2">
+                                            <i class="fa-regular fa-images"></i>
+                                            All Photos
+                                        </a>
+                                    </span>
+                                    <div class="room-image">
+                                        <img src="assets/img/home-1/room/small-5.jpg" alt="img" />
+                                    </div>
+                                    <div class="room-content">
+                                        <h4>
+                                            <a href="room-details.html">Delux Family Room</a>
+                                        </h4>
+                                        <ul class="list">
+                                            <li>
+                                                <i class="fa-solid fa-bed-front"></i>
+                                                1500 SQ.FT/Rooms
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-user"></i>
+                                                02 Guests
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="room-card-items-2">
+                                    <span class="tag">
+                                        <a href="assets/img/home-1/room/small-4.jpg" class="img-popup2">
+                                            <i class="fa-regular fa-images"></i>
+                                            All Photos
+                                        </a>
+                                    </span>
+                                    <div class="room-image">
+                                        <img src="assets/img/home-1/room/small-3.jpg" alt="img" />
+                                    </div>
+                                    <div class="room-content">
+                                        <h4>
+                                            <a href="room-details.html">Delux Family Room</a>
+                                        </h4>
+                                        <ul class="list">
+                                            <li>
+                                                <i class="fa-solid fa-bed-front"></i>
+                                                1500 SQ.FT/Rooms
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-user"></i>
+                                                02 Guests
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="room-card-items-2">
+                                    <span class="tag">
+                                        <a href="assets/img/home-1/room/small-5.jpg" class="img-popup2">
+                                            <i class="fa-regular fa-images"></i>
+                                            All Photos
+                                        </a>
+                                    </span>
+                                    <div class="room-image">
+                                        <img src="assets/img/home-1/room/small-4.jpg" alt="img" />
+                                    </div>
+                                    <div class="room-content">
+                                        <h4>
+                                            <a href="room-details.html">Delux Family Room</a>
+                                        </h4>
+                                        <ul class="list">
+                                            <li>
+                                                <i class="fa-solid fa-bed-front"></i>
+                                                1500 SQ.FT/Rooms
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-user"></i>
+                                                02 Guests
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="basic" class="tab-pane fade" role="tabpanel">
+                    <div class="swiper room-slider-2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="room-card-items-2">
+                                    <span class="tag">
+                                        <a href="assets/img/home-1/room/small-1.jpg" class="img-popup2">
+                                            <i class="fa-regular fa-images"></i>
+                                            All Photos
+                                        </a>
+                                    </span>
+                                    <div class="room-image">
+                                        <img src="assets/img/home-1/room/small-1.jpg" alt="img" />
+                                    </div>
+                                    <div class="room-content">
+                                        <h4>
+                                            <a href="room-details.html">Delux Family Room</a>
+                                        </h4>
+                                        <ul class="list">
+                                            <li>
+                                                <i class="fa-solid fa-bed-front"></i>
+                                                1500 SQ.FT/Rooms
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-user"></i>
+                                                02 Guests
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="room-card-items-2">
+                                    <span class="tag">
+                                        <a href="assets/img/home-1/room/small-2.jpg" class="img-popup2">
+                                            <i class="fa-regular fa-images"></i>
+                                            All Photos
+                                        </a>
+                                    </span>
+                                    <div class="room-image">
+                                        <img src="assets/img/home-1/room/small-2.jpg" alt="img" />
+                                    </div>
+                                    <div class="room-content">
+                                        <h4>
+                                            <a href="room-details.html">Delux Family Room</a>
+                                        </h4>
+                                        <ul class="list">
+                                            <li>
+                                                <i class="fa-solid fa-bed-front"></i>
+                                                1500 SQ.FT/Rooms
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-user"></i>
+                                                02 Guests
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="room-card-items-2">
+                                    <span class="tag">
+                                        <a href="assets/img/home-1/room/small-3.jpg" class="img-popup2">
+                                            <i class="fa-regular fa-images"></i>
+                                            All Photos
+                                        </a>
+                                    </span>
+                                    <div class="room-image">
+                                        <img src="assets/img/home-1/room/small-5.jpg" alt="img" />
+                                    </div>
+                                    <div class="room-content">
+                                        <h4>
+                                            <a href="room-details.html">Delux Family Room</a>
+                                        </h4>
+                                        <ul class="list">
+                                            <li>
+                                                <i class="fa-solid fa-bed-front"></i>
+                                                1500 SQ.FT/Rooms
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-user"></i>
+                                                02 Guests
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="room-card-items-2">
+                                    <span class="tag">
+                                        <a href="assets/img/home-1/room/small-4.jpg" class="img-popup2">
+                                            <i class="fa-regular fa-images"></i>
+                                            All Photos
+                                        </a>
+                                    </span>
+                                    <div class="room-image">
+                                        <img src="assets/img/home-1/room/small-3.jpg" alt="img" />
+                                    </div>
+                                    <div class="room-content">
+                                        <h4>
+                                            <a href="room-details.html">Delux Family Room</a>
+                                        </h4>
+                                        <ul class="list">
+                                            <li>
+                                                <i class="fa-solid fa-bed-front"></i>
+                                                1500 SQ.FT/Rooms
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-user"></i>
+                                                02 Guests
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="room-card-items-2">
+                                    <span class="tag">
+                                        <a href="assets/img/home-1/room/small-5.jpg" class="img-popup2">
+                                            <i class="fa-regular fa-images"></i>
+                                            All Photos
+                                        </a>
+                                    </span>
+                                    <div class="room-image">
+                                        <img src="assets/img/home-1/room/small-4.jpg" alt="img" />
+                                    </div>
+                                    <div class="room-content">
+                                        <h4>
+                                            <a href="room-details.html">Delux Family Room</a>
+                                        </h4>
+                                        <ul class="list">
+                                            <li>
+                                                <i class="fa-solid fa-bed-front"></i>
+                                                1500 SQ.FT/Rooms
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-user"></i>
+                                                02 Guests
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="room" class="tab-pane fade" role="tabpanel">
+                    <div class="swiper room-slider-2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="room-card-items-2">
+                                    <span class="tag">
+                                        <a href="assets/img/home-1/room/small-1.jpg" class="img-popup2">
+                                            <i class="fa-regular fa-images"></i>
+                                            All Photos
+                                        </a>
+                                    </span>
+                                    <div class="room-image">
+                                        <img src="assets/img/home-1/room/small-1.jpg" alt="img" />
+                                    </div>
+                                    <div class="room-content">
+                                        <h4>
+                                            <a href="room-details.html">Delux Family Room</a>
+                                        </h4>
+                                        <ul class="list">
+                                            <li>
+                                                <i class="fa-solid fa-bed-front"></i>
+                                                1500 SQ.FT/Rooms
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-user"></i>
+                                                02 Guests
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="room-card-items-2">
+                                    <span class="tag">
+                                        <a href="assets/img/home-1/room/small-2.jpg" class="img-popup2">
+                                            <i class="fa-regular fa-images"></i>
+                                            All Photos
+                                        </a>
+                                    </span>
+                                    <div class="room-image">
+                                        <img src="assets/img/home-1/room/small-2.jpg" alt="img" />
+                                    </div>
+                                    <div class="room-content">
+                                        <h4>
+                                            <a href="room-details.html">Delux Family Room</a>
+                                        </h4>
+                                        <ul class="list">
+                                            <li>
+                                                <i class="fa-solid fa-bed-front"></i>
+                                                1500 SQ.FT/Rooms
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-user"></i>
+                                                02 Guests
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="room-card-items-2">
+                                    <span class="tag">
+                                        <a href="assets/img/home-1/room/small-3.jpg" class="img-popup2">
+                                            <i class="fa-regular fa-images"></i>
+                                            All Photos
+                                        </a>
+                                    </span>
+                                    <div class="room-image">
+                                        <img src="assets/img/home-1/room/small-5.jpg" alt="img" />
+                                    </div>
+                                    <div class="room-content">
+                                        <h4>
+                                            <a href="room-details.html">Delux Family Room</a>
+                                        </h4>
+                                        <ul class="list">
+                                            <li>
+                                                <i class="fa-solid fa-bed-front"></i>
+                                                1500 SQ.FT/Rooms
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-user"></i>
+                                                02 Guests
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="room-card-items-2">
+                                    <span class="tag">
+                                        <a href="assets/img/home-1/room/small-4.jpg" class="img-popup2">
+                                            <i class="fa-regular fa-images"></i>
+                                            All Photos
+                                        </a>
+                                    </span>
+                                    <div class="room-image">
+                                        <img src="assets/img/home-1/room/small-3.jpg" alt="img" />
+                                    </div>
+                                    <div class="room-content">
+                                        <h4>
+                                            <a href="room-details.html">Delux Family Room</a>
+                                        </h4>
+                                        <ul class="list">
+                                            <li>
+                                                <i class="fa-solid fa-bed-front"></i>
+                                                1500 SQ.FT/Rooms
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-user"></i>
+                                                02 Guests
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="room-card-items-2">
+                                    <span class="tag">
+                                        <a href="assets/img/home-1/room/small-5.jpg" class="img-popup2">
+                                            <i class="fa-regular fa-images"></i>
+                                            All Photos
+                                        </a>
+                                    </span>
+                                    <div class="room-image">
+                                        <img src="assets/img/home-1/room/small-4.jpg" alt="img" />
+                                    </div>
+                                    <div class="room-content">
+                                        <h4>
+                                            <a href="room-details.html">Delux Family Room</a>
+                                        </h4>
+                                        <ul class="list">
+                                            <li>
+                                                <i class="fa-solid fa-bed-front"></i>
+                                                1500 SQ.FT/Rooms
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-user"></i>
+                                                02 Guests
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="array-buttonss wow fadeInUp" data-wow-delay=".5s">
+                    <button class="array-prev">prev</button>
+                    <button class="array-next">next</button>
+                </div>
+            </div>
+        </section>
+        <section class="our-facilities-section section-padding fix">
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="sub-title sub-title-2 wow fadeInUp">our best facilities</span>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Our Facilities & Amenities</h2>
+                </div>
+                <div class="our-facilities-wrapper">
+                    <div class="row g-4">
+                        <div class="col-xl-2 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay=".1s">
+                            <div class="our-facilities-item">
+                                <div class="icon">
+                                    <img src="assets/img/home-2/icon/01.svg" alt="img" />
+                                </div>
+                                <h6>Sustainability</h6>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay=".2s">
+                            <div class="our-facilities-item">
+                                <div class="icon">
+                                    <img src="assets/img/home-2/icon/02.svg" alt="img" />
+                                </div>
+                                <h6>free Wi-Fi</h6>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
+                            <div class="our-facilities-item">
+                                <div class="icon">
+                                    <img src="assets/img/home-2/icon/03.svg" alt="img" />
+                                </div>
+                                <h6>24 Hour Room Service</h6>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="our-facilities-item">
+                                <div class="icon">
+                                    <img src="assets/img/home-2/icon/04.svg" alt="img" />
+                                </div>
+                                <h6>Wake-Up Calls </h6>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay=".5s">
+                            <div class="our-facilities-item">
+                                <div class="icon">
+                                    <img src="assets/img/home-2/icon/05.svg" alt="img" />
+                                </div>
+                                <h6>Turndown Service </h6>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay=".6s">
+                            <div class="our-facilities-item">
+                                <div class="icon">
+                                    <img src="assets/img/home-2/icon/06.svg" alt="img" />
+                                </div>
+                                <h6>Daily Housekeeping</h6>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay=".1s">
+                            <div class="our-facilities-item">
+                                <div class="icon">
+                                    <img src="assets/img/home-2/icon/07.svg" alt="img" />
+                                </div>
+                                <h6>Meeting Space</h6>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay=".2s">
+                            <div class="our-facilities-item">
+                                <div class="icon">
+                                    <img src="assets/img/home-2/icon/08.svg" alt="img" />
+                                </div>
+                                <h6>spa</h6>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
+                            <div class="our-facilities-item">
+                                <div class="icon">
+                                    <img src="assets/img/home-2/icon/09.svg" alt="img" />
+                                </div>
+                                <h6>Restaurant On-Site</h6>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="our-facilities-item">
+                                <div class="icon">
+                                    <img src="assets/img/home-2/icon/10.svg" alt="img" />
+                                </div>
+                                <h6>Fitness Center </h6>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay=".5s">
+                            <div class="our-facilities-item">
+                                <div class="icon">
+                                    <img src="assets/img/home-2/icon/11.svg" alt="img" />
+                                </div>
+                                <h6>On-Site Laundry</h6>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay=".6s">
+                            <div class="our-facilities-item">
+                                <div class="icon">
+                                    <img src="assets/img/home-2/icon/12.svg" alt="img" />
+                                </div>
+                                <h6>Outdoor Pool</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-image bg-cover" style="background-image: url(assets/img/home-2/feature/02.jpg)">
+                    <div class="counter-wrapper">
+                        <div class="counter-content">
+                            <h2><span class="odometer" data-count="4">00</span>k+</h2>
+                            <p>Rooms</p>
+                        </div>
+                        <div class="counter-content">
+                            <h2><span class="odometer" data-count="200">00</span>+</h2>
+                            <p>Facilities</p>
+                        </div>
+                        <div class="counter-content">
+                            <h2><span class="odometer" data-count="2.5">00</span>k</h2>
+                            <p>Clients</p>
+                        </div>
+                        <div class="counter-content">
+                            <h2><span class="odometer" data-count="720">00</span>+</h2>
+                            <p>Staff</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="airport-pickup-section section-padding fix section-bg">
+            <div class="plane-image">
+                <img src="assets/img/home-2/feature/plane.png" alt="img" />
+            </div>
+            <div class="container">
+                <div class="airport-pickup-wrapper">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-lg-6">
+                            <div class="airport-pickup-item">
+                                <div class="section-title mb-0">
+                                    <span class="sub-title sub-title-2 mb-0 wow fadeInUp">airport pickup & drop</span>
+                                </div>
+                                <div class="airport-pickup-image">
+                                    <img src="assets/img/home-2/feature/01.png" alt="img" />
+                                    <div class="radius-image">
+                                        <img src="assets/img/home-2/feature/radius.png" alt="img" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="airport-pickup-content">
+                                <div class="info-item">
+                                    <img src="assets/img/home-2/feature/group.png" alt="img" />
+                                    <span> Our special team for your service </span>
+                                </div>
+                                <div class="section-title mb-0">
+                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                                        Convenient Airport Pickup & Drop Service — Travel Hassle-Free!
+                                    </h2>
+                                </div>
+                                <p class="text">
+                                    Experience the serene balance of Japan, where timeless traditions meet the pulse of
+                                    modern life.From ancient temples to futuristic skylines, every detail tells a story
+                                    of harmony. Witness craftsman passed through generations, reimagined for today’s
+                                    world. Here, the past and present coexist beautifully — refined, elegant, and
+                                    inspiring.
+                                </p>
+                                <a href="contact.html" class="theme-btn">get in touch</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="faq-section section-padding fix">
+            <div class="container">
+                <div class="faq-wrapper">
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <div class="faq-content">
+                                <div class="section-title mb-0">
+                                    <span class="sub-title sub-title-2 wow fadeInUp">Frequently ask question</span>
+                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Our Expert Answers</h2>
+                                </div>
+                                <p class="text">
+                                    Mauris nec risus congue dui suscipit interdum id ac felis. Cras venete finibus quis.
+                                    Phasellus tempor at turpis quis ultrices. Vivamus.
+                                </p>
+                                <div class="faq-items">
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item mb-3 wow fadeInUp" data-wow-delay=".2s">
+                                            <h5 class="accordion-header" id="headingTwo">
+                                                <button
+                                                    class="accordion-button collapsed"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseTwo"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapseTwo"
+                                                >
+                                                    How can I book a room at your hotel?
+                                                </button>
+                                            </h5>
+                                            <div
+                                                id="collapseTwo"
+                                                class="accordion-collapse collapse"
+                                                aria-labelledby="headingTwo"
+                                                data-bs-parent="#accordionExample"
+                                            >
+                                                <div class="accordion-body">
+                                                    <p>
+                                                        Experience the serene balance of Japan, where timeless
+                                                        traditions meet the pulse of modern life. From ancient temples
+                                                        to futuristic skylines, every detail tells a story of harmony.
+                                                        Witness craftsman passed through generations, reimagined for
+                                                        today’s world. Here, the past and present coexist beautifully —
+                                                        refined, elegant, and inspiring.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item mb-3 wow fadeInUp" data-wow-delay=".8s">
+                                            <h5 class="accordion-header" id="headingOne">
+                                                <button
+                                                    class="accordion-button"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseOne"
+                                                    aria-expanded="true"
+                                                    aria-controls="collapseOne"
+                                                >
+                                                    How can I book a room at your hotel?
+                                                </button>
+                                            </h5>
+                                            <div
+                                                id="collapseOne"
+                                                class="accordion-collapse collapse show"
+                                                aria-labelledby="headingOne"
+                                                data-bs-parent="#accordionExample"
+                                            >
+                                                <div class="accordion-body">
+                                                    <p>
+                                                        Experience the serene balance of Japan, where timeless
+                                                        traditions meet the pulse of modern life. From ancient temples
+                                                        to futuristic skylines, every detail tells a story of harmony.
+                                                        Witness craftsman passed through generations, reimagined for
+                                                        today’s world. Here, the past and present coexist beautifully —
+                                                        refined, elegant, and inspiring.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item mb-3 wow fadeInUp" data-wow-delay=".4s">
+                                            <h5 class="accordion-header" id="headingthree">
+                                                <button
+                                                    class="accordion-button collapsed"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#collapsethree"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapsethree"
+                                                >
+                                                    How can I book a room at your hotel?
+                                                </button>
+                                            </h5>
+                                            <div
+                                                id="collapsethree"
+                                                class="accordion-collapse collapse"
+                                                aria-labelledby="headingthree"
+                                                data-bs-parent="#accordionExample"
+                                            >
+                                                <div class="accordion-body">
+                                                    <p>
+                                                        Experience the serene balance of Japan, where timeless
+                                                        traditions meet the pulse of modern life. From ancient temples
+                                                        to futuristic skylines, every detail tells a story of harmony.
+                                                        Witness craftsman passed through generations, reimagined for
+                                                        today’s world. Here, the past and present coexist beautifully —
+                                                        refined, elegant, and inspiring.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item wow fadeInUp" data-wow-delay=".6s">
+                                            <h5 class="accordion-header" id="headingfour">
+                                                <button
+                                                    class="accordion-button collapsed"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#collapsefour"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapsefour"
+                                                >
+                                                    How can I book a room at your hotel?
+                                                </button>
+                                            </h5>
+                                            <div
+                                                id="collapsefour"
+                                                class="accordion-collapse collapse"
+                                                aria-labelledby="headingfour"
+                                                data-bs-parent="#accordionExample"
+                                            >
+                                                <div class="accordion-body">
+                                                    <p>
+                                                        Experience the serene balance of Japan, where timeless
+                                                        traditions meet the pulse of modern life. From ancient temples
+                                                        to futuristic skylines, every detail tells a story of harmony.
+                                                        Witness craftsman passed through generations, reimagined for
+                                                        today’s world. Here, the past and present coexist beautifully —
+                                                        refined, elegant, and inspiring.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="faq-image">
+                                <img src="assets/img/home-2/faq.jpg" alt="img" />
+                                <div
+                                    class="faq-man-image wow slideInUp"
+                                    data-wow-delay="100ms"
+                                    data-wow-duration="2500ms"
+                                >
+                                    <img src="assets/img/home-2/faq-man.png" alt="img" />
+                                </div>
+                                <div class="faq-box">
+                                    <div class="logo-image">
+                                        <img src="assets/img/logo/red-logo.svg" alt="img" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hotel-gallery-section section-padding fix">
+            <div class="line-shape">
+                <img src="assets/img/home-2/gallery/shape.png" alt="img" />
+            </div>
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="sub-title text-white sub-title-2 wow fadeInUp">Hotel gallery</span>
+                    <h2 class="sec-title text-white" data-cursor="-opaque">Highlighted Amenities</h2>
+                </div>
+            </div>
+            <div class="hotel-gallery-wrapper">
+                <ul class="nav" role="tablist">
+                    <li class="nav-item wow fadeInUp" data-wow-delay=".2s">
+                        <a
+                            href="#hall"
+                            data-bs-toggle="tab"
+                            class="nav-link"
+                            aria-selected="false"
+                            role="tab"
+                            tabindex="-1"
+                        >
+                            Conference hall
+                        </a>
+                    </li>
+                    <li class="nav-item wow fadeInUp" data-wow-delay=".4s">
+                        <a href="#Fitness" data-bs-toggle="tab" class="nav-link active" aria-selected="true" role="tab">
+                            Fitness Center
+                        </a>
+                    </li>
+                    <li class="nav-item wow fadeInUp" data-wow-delay=".6s">
+                        <a
+                            href="#Pool"
+                            data-bs-toggle="tab"
+                            class="nav-link"
+                            aria-selected="false"
+                            role="tab"
+                            tabindex="-1"
+                        >
+                            Swimming Pool
+                        </a>
+                    </li>
+                    <li class="nav-item wow fadeInUp" data-wow-delay=".6s">
+                        <a
+                            href="#Shower"
+                            data-bs-toggle="tab"
+                            class="nav-link"
+                            aria-selected="false"
+                            role="tab"
+                            tabindex="-1"
+                        >
+                            Steam Shower
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="hall" class="tab-pane fade" role="tabpanel">
+                        <div class="swiper gallery-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="gallery-image">
+                                        <img src="assets/img/home-2/gallery/04.jpg" alt="img" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery-image">
+                                        <img src="assets/img/home-2/gallery/05.jpg" alt="img" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery-image">
+                                        <img src="assets/img/home-2/gallery/06.jpg" alt="img" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Fitness" class="tab-pane fade active show" role="tabpanel">
+                        <div class="swiper gallery-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="gallery-image">
+                                        <img src="assets/img/home-2/gallery/01.jpg" alt="img" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery-image">
+                                        <img src="assets/img/home-2/gallery/02.jpg" alt="img" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery-image">
+                                        <img src="assets/img/home-2/gallery/03.jpg" alt="img" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Pool" class="tab-pane fade" role="tabpanel">
+                        <div class="swiper gallery-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="gallery-image">
+                                        <img src="assets/img/home-2/gallery/07.jpg" alt="img" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery-image">
+                                        <a href="#" class="image-anime" data-cursor-text="DRAG">
+                                            <img src="assets/img/home-2/gallery/08.jpg" class="w-th" alt="img" />
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery-image">
+                                        <img src="assets/img/home-2/gallery/09.jpg" alt="img" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Shower" class="tab-pane fade" role="tabpanel">
+                        <div class="swiper gallery-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="gallery-image">
+                                        <img src="assets/img/home-2/gallery/10.jpg" alt="img" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery-image">
+                                        <img src="assets/img/home-2/gallery/11.jpg" alt="img" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery-image">
+                                        <img src="assets/img/home-2/gallery/12.jpg" alt="img" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonial-section-2 section-padding">
+            <div class="container">
+                <div class="testimonial-wrapper-2">
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <div class="testimonial-top-item">
+                                <div class="testimonial-card-item">
+                                    <div class="top-items">
+                                        <div class="info-item">
+                                            <img src="assets/img/home-2/client.png" alt="img" />
+                                            <div class="cont">
+                                                <h5>Marvin McKinney</h5>
+                                                <span>Product Manager</span>
+                                            </div>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="assets/img/home-2/icon/13.svg" alt="img" />
+                                        </div>
+                                    </div>
+                                    <p>
+                                        From the moment we arrived, every detail was flawless. The staff anticipated our
+                                        every need, and the suite was pure perfection. We’ll be back soon!"
+                                    </p>
+                                    <div class="star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="testimonial-card-item">
+                                    <div class="top-items">
+                                        <div class="info-item">
+                                            <img src="assets/img/home-2/client.png" alt="img" />
+                                            <div class="cont">
+                                                <h5>Marvin McKinney</h5>
+                                                <span>Product Manager</span>
+                                            </div>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="assets/img/home-2/icon/13.svg" alt="img" />
+                                        </div>
+                                    </div>
+                                    <p>
+                                        From the moment we arrived, every detail was flawless. The staff anticipated our
+                                        every need, and the suite was pure perfection. We’ll be back soon!"
+                                    </p>
+                                    <div class="star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="testimonial-card-item">
+                                    <div class="top-items">
+                                        <div class="info-item">
+                                            <img src="assets/img/home-2/client.png" alt="img" />
+                                            <div class="cont">
+                                                <h5>Marvin McKinney</h5>
+                                                <span>Product Manager</span>
+                                            </div>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="assets/img/home-2/icon/13.svg" alt="img" />
+                                        </div>
+                                    </div>
+                                    <p>
+                                        From the moment we arrived, every detail was flawless. The staff anticipated our
+                                        every need, and the suite was pure perfection. We’ll be back soon!"
+                                    </p>
+                                    <div class="star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="testimonial-card-item mb-0">
+                                    <div class="top-items">
+                                        <div class="info-item">
+                                            <img src="assets/img/home-2/client.png" alt="img" />
+                                            <div class="cont">
+                                                <h5>Marvin McKinney</h5>
+                                                <span>Product Manager</span>
+                                            </div>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="assets/img/home-2/icon/13.svg" alt="img" />
+                                        </div>
+                                    </div>
+                                    <p>
+                                        From the moment we arrived, every detail was flawless. The staff anticipated our
+                                        every need, and the suite was pure perfection. We’ll be back soon!"
+                                    </p>
+                                    <div class="star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="testimonial-content-2 sticky-style">
+                                <div class="section-title mb-0">
+                                    <span class="sub-title sub-title-2 wow fadeInUp">client’s talk about us</span>
+                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Lumora Testimonials</h2>
+                                </div>
+                                <p class="text wow fadeInUp" data-wow-delay=".3s">
+                                    Mauris nec risus congue dui suscipit interdum id ac felis. Cras venete finibus quis.
+                                    Phasellus tempor at turpis quis ultrices. Vivamus.
+                                </p>
+                                <div class="testimonial-thumb">
+                                    <img src="assets/img/home-2/tower.jpg" alt="img" />
+                                    <div class="thumb-box">
+                                        <h4>Excellent</h4>
+                                        <div class="star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <h5>Based on <span>456 reviews</span></h5>
+                                        <h6><i class="fa-solid fa-star"></i> Trustpilot</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="team-section section-padding fix section-bg">
+            <div class="container">
+                <div class="section-title-area">
+                    <div class="section-title">
+                        <span class="sub-title sub-title-2 wow fadeInUp">our team member</span>
+                        <h2 class="wow fadeInUp" data-wow-delay=".3s">Our Expert Teams</h2>
+                    </div>
+                    <div class="swiper-dot-1 mt-0 style-team">
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <div class="swiper team-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="team-card-item">
+                                <div class="team-image">
+                                    <img src="assets/img/home-2/team/01.jpg" alt="img" />
+                                    <div class="social-icon">
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </div>
+                                    <div class="team-content">
+                                        <h5>
+                                            <a href="team-details.html">Nguyen Ralph</a>
+                                        </h5>
+                                        <p>Guest Relations Officer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-card-item">
+                                <div class="team-image">
+                                    <img src="assets/img/home-2/team/02.jpg" alt="img" />
+                                    <div class="social-icon">
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </div>
+                                    <div class="team-content">
+                                        <h5>
+                                            <a href="team-details.html">Jessica Brown</a>
+                                        </h5>
+                                        <p>Reservation Agent</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-card-item">
+                                <div class="team-image">
+                                    <img src="assets/img/home-2/team/03.jpg" alt="img" />
+                                    <div class="social-icon">
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </div>
+                                    <div class="team-content">
+                                        <h5>
+                                            <a href="team-details.html">Jessica Brown</a>
+                                        </h5>
+                                        <p>Reservation Agent</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-card-item">
+                                <div class="team-image">
+                                    <img src="assets/img/home-2/team/04.jpg" alt="img" />
+                                    <div class="social-icon">
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </div>
+                                    <div class="team-content">
+                                        <h5>
+                                            <a href="team-details.html">Nguyen Ralph</a>
+                                        </h5>
+                                        <p>Guest Relations Officer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="brand-section section-padding fix b-bg">
+            <div class="container">
+                <div class="swiper brand-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="brand-item">
+                                <span class="brand-three-active-media">
+                                    <img src="assets/img/home-1/brand/01.png" alt="thumb" />
+                                </span>
+                                <span class="brand-three-hover-media">
+                                    <img src="assets/img/home-1/brand/01.png" alt="thumb" />
+                                </span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-item">
+                                <span class="brand-three-active-media">
+                                    <img src="assets/img/home-1/brand/02.png" alt="thumb" />
+                                </span>
+                                <span class="brand-three-hover-media">
+                                    <img src="assets/img/home-1/brand/02.png" alt="thumb" />
+                                </span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-item">
+                                <span class="brand-three-active-media">
+                                    <img src="assets/img/home-1/brand/03.png" alt="thumb" />
+                                </span>
+                                <span class="brand-three-hover-media">
+                                    <img src="assets/img/home-1/brand/03.png" alt="thumb" />
+                                </span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-item">
+                                <span class="brand-three-active-media">
+                                    <img src="assets/img/home-1/brand/04.png" alt="thumb" />
+                                </span>
+                                <span class="brand-three-hover-media">
+                                    <img src="assets/img/home-1/brand/04.png" alt="thumb" />
+                                </span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-item">
+                                <span class="brand-three-active-media">
+                                    <img src="assets/img/home-1/brand/05.png" alt="thumb" />
+                                </span>
+                                <span class="brand-three-hover-media">
+                                    <img src="assets/img/home-1/brand/05.png" alt="thumb" />
+                                </span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-item">
+                                <span class="brand-three-active-media">
+                                    <img src="assets/img/home-1/brand/06.png" alt="thumb" />
+                                </span>
+                                <span class="brand-three-hover-media">
+                                    <img src="assets/img/home-1/brand/06.png" alt="thumb" />
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="news-section-2 section-padding fix news-bg">
+            <div class="container">
+                <div class="section-title-area">
+                    <div class="section-title">
+                        <span class="sub-title sub-title-2 wow fadeInUp">L A S T E S T A R T I C L E S</span>
+                        <h2 class="wow fadeInUp" data-wow-delay=".3s">Latest News & Articles</h2>
+                    </div>
+                    <a href="news-grid.html" class="theme-btn wow fadeInUp" data-wow-delay=".4s">VIEW ALL ARTICLES</a>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="news-card-items-2">
+                            <div class="news-image">
+                                <img src="assets/img/home-2/news/01.jpg" alt="img" />
+                                <div class="post-box">
+                                    <h4>17<br /><span>April</span></h4>
+                                </div>
+                            </div>
+                            <div class="news-content">
+                                <ul class="news-meta">
+                                    <li>
+                                        <img src="assets/img/home-2/arrow.png" alt="img" />
+                                        By Admin
+                                    </li>
+                                    <li class="style-2">Business</li>
+                                </ul>
+                                <h4>
+                                    <a href="news-details.html"> Why Our Hotel Is Ideal for Remote Work Travelers </a>
+                                </h4>
+                                <a href="news-details.html" class="link-btn">READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="news-card-items-2">
+                            <div class="news-image">
+                                <img src="assets/img/home-2/news/02.jpg" alt="img" />
+                                <div class="post-box">
+                                    <h4>17<br /><span>April</span></h4>
+                                </div>
+                            </div>
+                            <div class="news-content">
+                                <ul class="news-meta">
+                                    <li>
+                                        <img src="assets/img/home-2/arrow.png" alt="img" />
+                                        By Admin
+                                    </li>
+                                    <li class="style-2">City Hotel</li>
+                                </ul>
+                                <h4>
+                                    <a href="news-details.html"> The Best Coffee Shops Within Walking Distance </a>
+                                </h4>
+                                <a href="news-details.html" class="link-btn">READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="news-card-items-2">
+                            <div class="news-image">
+                                <img src="assets/img/home-2/news/03.jpg" alt="img" />
+                                <div class="post-box">
+                                    <h4>17<br /><span>April</span></h4>
+                                </div>
+                            </div>
+                            <div class="news-content">
+                                <ul class="news-meta">
+                                    <li>
+                                        <img src="assets/img/home-2/arrow.png" alt="img" />
+                                        By Admin
+                                    </li>
+                                    <li class="style-2">Business</li>
+                                </ul>
+                                <h4>
+                                    <a href="news-details.html">
+                                        5 Relaxing Things to Do After a Busy Day in the City
+                                    </a>
+                                </h4>
+                                <a href="news-details.html" class="link-btn">READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer-section fix bg-cover" style="background-image: url(assets/img/home-1/footer.jpg)">
+            <div class="container">
+                <div class="footer-newsletter">
+                    <div class="newsletter-content">
+                        <h3>Get newsletter from hotel</h3>
+                        <p>
+                            At Lumora, we believe luxury is not just a destination—it’s a feeling, an experience, and a
+                            way of life
+                        </p>
+                    </div>
+                    <form action="#">
+                        <div class="form-clt">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="text" name="email" id="email" placeholder="enter your email" />
+                            <button type="submit" class="theme-btn">subscribe now</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="footer-widget-wrapper">
+                    <div class="row">
+                        <div class="col-xl-4 col-md-6 col-lg-3 wow fadeInUp" data-wow-delay=".2s">
+                            <div class="single-footer-widget">
+                                <div class="widget-title">
+                                    <h5>About us</h5>
+                                </div>
+                                <div class="footer-content">
+                                    <p>
+                                        Welcome to Lumora, your trusted platform for discovering and booking the best
+                                        hotels around the world. Since our journey began.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-6 col-lg-3 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="single-footer-widget">
+                                <div class="widget-title">
+                                    <h5>hotel best services</h5>
+                                </div>
+                                <ul class="list">
+                                    <li>
+                                        <a href="service-details.html">Airport pickup & drop</a>
+                                    </li>
+                                    <li>
+                                        <a href="service-details.html">Room booking</a>
+                                    </li>
+                                    <li>
+                                        <a href="service-details.html">special offers</a>
+                                    </li>
+                                    <li>
+                                        <a href="service-details.html">special foods</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 ps-lg-5 col-md-6 col-lg-3 wow fadeInUp" data-wow-delay=".6s">
+                            <div class="single-footer-widget">
+                                <div class="widget-title">
+                                    <h5>check in & out time</h5>
+                                </div>
+                                <ul class="date-list">
+                                    <li>Mon to Fri : <span class="style-1">08:00 - 11:00</span></li>
+                                    <li>Saturday : <span>08:00 - 11:00</span></li>
+                                    <li>Sunday : <span class="style-3">Closed</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 ps-lg-5 col-md-6 col-lg-3 wow fadeInUp" data-wow-delay=".8s">
+                            <div class="single-footer-widget">
+                                <div class="widget-title">
+                                    <h5>Contact Us</h5>
+                                </div>
+                                <ul class="contact-item">
+                                    <li>
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        UK, 1212; 102/B New Elephant <br />
+                                        Road London
+                                    </li>
+                                    <li class="style-2">
+                                        <i class="fa-solid fa-envelope"></i>
+                                        <a href="mailto:exmplor@gmail.com">exmplor@gmail.com</a>
+                                    </li>
+                                    <li class="style-2">
+                                        <i class="fa-solid fa-phone"></i>
+                                        <a href="tel:+1234567879967">+123 456 7879 967</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="footer-wrapper">
+                        <div class="social-icon wow fadeInLeft" data-wow-delay=".3s">
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </div>
+                        <ul class="footer-list wow fadeInUp" data-wow-delay=".5s">
+                            <li>
+                                <a href="contact.html">Terms & Conditions</a>
+                            </li>
+                            <li>/</li>
+                            <li>
+                                <a href="contact.html">Privacy Policy</a>
+                            </li>
+                            <li>/</li>
+                            <li>
+                                <a href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                        <p class="wow fadeInRight" data-wow-delay=".7s">
+                            Copyright © 2026 <span>Lumora</span>. Developed by <span>Atik Masud</span>
+                        </p>
+                    </div>
+                    <a href="index.html" class="footer-logo wow fadeInUp" data-wow-delay=".3s">
+                        <img src="assets/img/logo/white-logo.svg" alt="img" />
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <script src="assets/js/jquery-3.7.1.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/jquery.meanmenu.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/i18n-data.js"></script>
+        <script src="assets/js/i18n.js"></script>
+    </body>
+</html>
